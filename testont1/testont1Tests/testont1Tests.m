@@ -13,14 +13,35 @@
 @end
 
 @implementation testont1Tests
+{
+    // 1
+    NSDictionary *_characterDetailJson;
+}
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+
+    // 3
+    NSURL *dataServiceURL = [[NSBundle bundleForClass:self.class]
+                             URLForResource:@"character" withExtension:@"json"];
+
+    // 4
+    NSData *sampleData = [NSData dataWithContentsOfURL:dataServiceURL];
+    NSError *error;
+
+    // 5
+    id json = [NSJSONSerialization JSONObjectWithData:sampleData
+                                              options:kNilOptions
+                                                error:&error];
+
+    XCTAssertNotNil(json,@"buneng nil");
+
+    _characterDetailJson = json;
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
+    _characterDetailJson = nil;
     [super tearDown];
 }
 
