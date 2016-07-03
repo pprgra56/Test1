@@ -221,6 +221,7 @@
 				TargetAttributes = {
 					9BF8B3C31D27A7F400D1CBCB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MA2WR7AN55;
 					};
 					9BF8B3DC1D27A7F400D1CBCB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -429,7 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: alexluo@collectplus.cn (73E7FEX6MV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = testont1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.testont1;
@@ -441,7 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: alexluo@collectplus.cn (73E7FEX6MV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = testont1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.testont1;
@@ -514,6 +515,7 @@
 				9BF8B3F31D27A7F400D1CBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF8B3F41D27A7F400D1CBCB /* Build configuration list for PBXNativeTarget "testont1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				9BF8B3F61D27A7F400D1CBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF8B3F71D27A7F400D1CBCB /* Build configuration list for PBXNativeTarget "testont1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +533,7 @@
 				9BF8B3F91D27A7F400D1CBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
